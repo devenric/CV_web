@@ -1,0 +1,31 @@
+.flex{display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    transition: all 0.5 ease;
+}
+.flexitem{
+display: block;
+flex: 1 1 250px;
+margin: 10px;
+background-color: blue;
+width: 100%;
+text-align: center;
+transition: all 0.5 ease;}
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: red;
+}
+@media(max-width: 767px){
+    body{
+        background-color: aqua;
+    }
+}
+@media(min-width: 768px){
+
+}
+@media(min-width: 1200px){
+
+}
+section{background-color: bisque;
+    border-radius: 0 20px;}
